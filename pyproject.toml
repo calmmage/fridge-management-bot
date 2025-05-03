@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "project-name"
+name = "fridge-management-bot"
 version = "0.0.1"
 description = ""
 authors = ["Petr Lavrov <calmmage@gmail.com>"]
@@ -100,6 +100,10 @@ isort = "^6.0.0"
 vulture = "^2.14"
 pytest-cov = "^6.0.0"
 pyupgrade = "^3.19.1"
+pytest-asyncio = "^0.26.0"
+pytest-mock = "^3.14.0"
+pyright = "^1.1.400"
+ruff = "^0.11.8"
 
 [tool.poetry.group.docs.dependencies]
 #mkdocs = ">=1.6"
